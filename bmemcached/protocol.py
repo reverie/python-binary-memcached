@@ -4,7 +4,7 @@ import re
 import socket
 import struct
 import threading
-from urllib import splitport
+from urllib.parse import splitport
 import zlib
 from io import BytesIO
 
